@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D773A9FC2954F7660012EFCC /* lottoZahlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773A9FB2954F7660012EFCC /* lottoZahlView.swift */; };
+		D773A9FF2954FD660012EFCC /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D773A9FE2954FD660012EFCC /* Lottie */; };
+		D773AA01295503530012EFCC /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773AA00295503530012EFCC /* Header.swift */; };
+		D773AA04295509130012EFCC /* GrowingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D773AA03295509130012EFCC /* GrowingButton.swift */; };
 		D7A11280294E139000DA1EF0 /* __5LottoSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A1127F294E139000DA1EF0 /* __5LottoSwiftUiApp.swift */; };
 		D7A11282294E139000DA1EF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A11281294E139000DA1EF0 /* ContentView.swift */; };
 		D7A11284294E139000DA1EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A11283294E139000DA1EF0 /* Assets.xcassets */; };
@@ -14,6 +18,7 @@
 		D7A11291294E139000DA1EF0 /* __5LottoSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A11290294E139000DA1EF0 /* __5LottoSwiftUiTests.swift */; };
 		D7A1129B294E139000DA1EF0 /* __5LottoSwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A1129A294E139000DA1EF0 /* __5LottoSwiftUiUITests.swift */; };
 		D7A1129D294E139000DA1EF0 /* __5LottoSwiftUiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A1129C294E139000DA1EF0 /* __5LottoSwiftUiUITestsLaunchTests.swift */; };
+		D7A112AD294E142000DA1EF0 /* LottoZahlenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A112AC294E142000DA1EF0 /* LottoZahlenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D773A9FB2954F7660012EFCC /* lottoZahlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottoZahlView.swift; sourceTree = "<group>"; };
+		D773AA00295503530012EFCC /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		D773AA03295509130012EFCC /* GrowingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingButton.swift; sourceTree = "<group>"; };
 		D7A1127C294E139000DA1EF0 /* 2.5LottoSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2.5LottoSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A1127F294E139000DA1EF0 /* __5LottoSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __5LottoSwiftUiApp.swift; sourceTree = "<group>"; };
 		D7A11281294E139000DA1EF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +52,7 @@
 		D7A11296294E139000DA1EF0 /* 2.5LottoSwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2.5LottoSwiftUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A1129A294E139000DA1EF0 /* __5LottoSwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __5LottoSwiftUiUITests.swift; sourceTree = "<group>"; };
 		D7A1129C294E139000DA1EF0 /* __5LottoSwiftUiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __5LottoSwiftUiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7A112AC294E142000DA1EF0 /* LottoZahlenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoZahlenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D773A9FF2954FD660012EFCC /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D773AA02295508FB0012EFCC /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				D773AA03295509130012EFCC /* GrowingButton.swift */,
+			);
+			path = ButtonStyles;
+			sourceTree = "<group>";
+		};
 		D7A11273294E138F00DA1EF0 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +112,10 @@
 		D7A1127E294E139000DA1EF0 /* 2.5LottoSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				D773AA02295508FB0012EFCC /* ButtonStyles */,
+				D7A112AB294E13C000DA1EF0 /* View */,
+				D7A112AA294E13BB00DA1EF0 /* ViewModel */,
+				D7A112A9294E13B500DA1EF0 /* Model */,
 				D7A1127F294E139000DA1EF0 /* __5LottoSwiftUiApp.swift */,
 				D7A11281294E139000DA1EF0 /* ContentView.swift */,
 				D7A11283294E139000DA1EF0 /* Assets.xcassets */,
@@ -127,6 +149,30 @@
 			path = 2.5LottoSwiftUiUITests;
 			sourceTree = "<group>";
 		};
+		D7A112A9294E13B500DA1EF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D7A112AA294E13BB00DA1EF0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7A112AC294E142000DA1EF0 /* LottoZahlenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D7A112AB294E13C000DA1EF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D773A9FB2954F7660012EFCC /* lottoZahlView.swift */,
+				D773AA00295503530012EFCC /* Header.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +189,9 @@
 			dependencies = (
 			);
 			name = 2.5LottoSwiftUi;
+			packageProductDependencies = (
+				D773A9FE2954FD660012EFCC /* Lottie */,
+			);
 			productName = 2.5LottoSwiftUi;
 			productReference = D7A1127C294E139000DA1EF0 /* 2.5LottoSwiftUi.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +264,9 @@
 				Base,
 			);
 			mainGroup = D7A11273294E138F00DA1EF0;
+			packageReferences = (
+				D773A9FD2954FD660012EFCC /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = D7A1127D294E139000DA1EF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D773AA01295503530012EFCC /* Header.swift in Sources */,
+				D7A112AD294E142000DA1EF0 /* LottoZahlenViewModel.swift in Sources */,
 				D7A11282294E139000DA1EF0 /* ContentView.swift in Sources */,
+				D773A9FC2954F7660012EFCC /* lottoZahlView.swift in Sources */,
 				D7A11280294E139000DA1EF0 /* __5LottoSwiftUiApp.swift in Sources */,
+				D773AA04295509130012EFCC /* GrowingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +478,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,8 +506,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,6 +633,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D773A9FD2954FD660012EFCC /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D773A9FE2954FD660012EFCC /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D773A9FD2954FD660012EFCC /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D7A11274294E138F00DA1EF0 /* Project object */;
 }
